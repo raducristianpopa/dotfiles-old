@@ -25,7 +25,7 @@ print_before_the_prompt () {
     dir=$PWD
     home=$HOME
     dir=${dir/"$HOME"/"~"}
-    printf "\n $fg_bold[magenta]$USER@%s: $fg_bold[green]%s $fg_bold[cyan]%s\n$reset_color" "$HOSTNAME" "$dir" "$(parse_git_branch)"
+    printf "\n $fg_bold[magenta]$USER@%s: $fg_bold[green]%s $fg_bold[cyan]%s\n$reset_color" "$HOSTNAME" "$dir" "$(vcprompt)"
 }
 
 PROMPT_COMMAND=print_before_the_prompt
