@@ -1,0 +1,81 @@
+{
+	// BASIC
+	"javascript.format.enable": false,
+	"search.exclude": {
+		"**/node_modules": true
+	},
+
+	// EDITOR
+	"editor.fontSize": 16,
+	"editor.tabSize": 4,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "MonoLisa, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.smoothScrolling": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.rulers": [80],
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.minimap.enabled": false,
+	"editor.inlineSuggest.enabled": true,
+	"editor.unicodeHighlight.nonBasicASCII": false,
+
+	// ZEN MODE
+	"zenMode.hideTabs": false,
+	"zenMode.hideLineNumbers": false,
+
+	// WORKBENCH
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.iconTheme": "bearded-icons",
+	"workbench.startupEditor": "none",
+
+	// SECURITY
+	"security.workspace.trust.untrustedFiles": "open",
+
+	// PRETTIER
+	"prettier.tabWidth": 4,
+	"prettier.semi": true,
+	"prettier.printWidth": 80,
+	"prettier.useTabs": true,
+	"prettier.trailingComma": "none",
+	"prettier.singleQuote": true,
+	"prettier.quoteProps": "consistent",
+
+	// PLUGINS
+	"gitlens.hovers.currentLine.over": "line",
+	"github.copilot.enable": {
+		"*": false,
+		"yaml": false,
+		"plaintext": true,
+		"markdown": false
+	},
+
+	// LANGUAGE SETTINGS
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[xml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[php]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
+
+	"eslint.packageManager": "pnpm",
+	"window.commandCenter": true
+}
